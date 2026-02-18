@@ -23,10 +23,17 @@ public class Admin {
     public static void setMdp_admin(String mdp_admin) {
         Admin.mdp_admin = mdp_admin;
     }
+}
+
+
+
+
+
+
 
     // Méthode pour définir le mot de passe
 
     // Méthode pour vérifier si c'est un admin
 
     // Méthode pour changer le statut admin
-}
+

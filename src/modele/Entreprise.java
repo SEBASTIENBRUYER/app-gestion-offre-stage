@@ -107,6 +107,6 @@ public class Entreprise {
                 + "\n- Code postal : " + codePostal
                 + "\n- Téléphone : " + tel
                 + "\n- Email : " + email
-                + "\n- Secteur : " + secteur
+                + "\n- Secteur : " + secteur;
     }
 }
