@@ -87,11 +87,11 @@ public class GestionDesOfrres extends JFrame {
         jPanel1.add(boutonAnnuler);
 
         // Gestion des évènements (action des boutons)
-        boutonSaisir.addActionListener(ActionEvent e -> saisirOffre());
-        boutonCreer.addActionListener(ActionEvent e -> creerEntreprise());
-        boutonConsulter.addActionListener(ActionEvent e -> consulterOffres());
-        boutonModifier.addActionListener(ActionEvent e -> modifierEntreprise());
-        boutonAnnuler.addActionListener(ActionEvent e -> this.dispose());
+        boutonSaisir.addActionListener(ActionEvente -> saisirOffre());
+        boutonCreer.addActionListener(ActionEvente -> creerEntreprise());
+        boutonConsulter.addActionListener(ActionEvente -> consulterOffres());
+        boutonModifier.addActionListener(ActionEvente -> modifierEntreprise());
+        boutonAnnuler.addActionListener(ActionEvente -> this.dispose());
     }
     // Méthode liées aux évènements
     // Ouvrir la fenetre de saisie d'une nouvelle offre

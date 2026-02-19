@@ -105,7 +105,7 @@ public class Entreprise {
                 + "\n- Ville : " + adVille
                 + "\n- Rue : " + adRue
                 + "\n- Code postal : " + codePostal
-                + "\n- Téléphone : " + tel
+                + "\n- Telephone : " + tel
                 + "\n- Email : " + email
                 + "\n- Secteur : " + secteur;
     }
