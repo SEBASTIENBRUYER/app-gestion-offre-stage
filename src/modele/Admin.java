@@ -8,32 +8,30 @@ public class Admin {
     public Admin() {
     }
 
-    public static String getId_admin() {
+    public String getId_admin() {
         return id_admin;
     }
 
-    public static void setId_admin(String id_admin) {
+    public void setId_admin(String id_admin) {
         Admin.id_admin = id_admin;
     }
 
-    public static String getMdp_admin() {
+    public String getMdp_admin() {
         return mdp_admin;
     }
 
-    public static void setMdp_admin(String mdp_admin) {
+    // Méthode pour définir le mot de passe
+    public void setMdp_admin(String mdp_admin) {
         Admin.mdp_admin = mdp_admin;
     }
-}
-
-
-
-
-
-
-
-    // Méthode pour définir le mot de passe
 
     // Méthode pour vérifier si c'est un admin
+    public boolean isAdmin(){
+        return isAdmin;
+    }
 
     // Méthode pour changer le statut admin
-
+    public void setAdmin(boolean admin){
+        Admin.isAdmin = admin;
+    }
+}

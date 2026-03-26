@@ -16,27 +16,20 @@ public class Candidature {
 
     //Getters pour récupérer les données de la candidature
 
+    // Getter pour récupérer l'id de l'offre
     public int getId_offre() {
         return id_offre;
     }
 
-    public void setId_offre(int id_offre) {
-        this.id_offre = id_offre;
-    }
-
+    // Getter pour récupérer l'id de l'étudiant
     public int getId_etudiant() {
         return id_etudiant;
     }
 
-    public void setId_etudiant(int id_etudiant) {
-        this.id_etudiant = id_etudiant;
-    }
-
+    // Getter pour récupérer l'id de l'entreprise
     public String getNom_entreprise() {
         return nom_entreprise;
     }
 
-    public void setNom_entreprise(String nom_entreprise) {
-        this.nom_entreprise = nom_entreprise;
-    }
+
 }
