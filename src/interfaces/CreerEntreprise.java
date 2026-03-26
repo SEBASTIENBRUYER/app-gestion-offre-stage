@@ -108,7 +108,7 @@ public class CreerEntreprise extends JFrame {
         jPanel1.add(txtMdp);
 
         // Téléphone
-        jLabel8 = new JLabel("Mot de passe");
+        jLabel8 = new JLabel("Téléphone");
         jLabel8.setBounds(30, 290, 400, 25);
         jPanel1.add(jLabel8);
 
